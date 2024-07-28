@@ -1,5 +1,6 @@
-.produto{
-
+.img-cafe{
+    display: flex;
+    justify-content: center;
 }
 
 .fundo{
@@ -9,12 +10,12 @@
 .produto-img{
     height: 22rem;
     margin-top: 15rem;
-    margin-left: 5rem;
     position: absolute;
 }
 
 .fundo-img{
     margin-top: 14rem;
-    height: 27rem;
+    height: 25rem;
+    float: right;
 
 }
