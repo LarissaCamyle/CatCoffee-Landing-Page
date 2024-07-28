@@ -20,3 +20,10 @@ body, html{
 
     background-color: var(--cor-de-fundo);
 }
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: light;
+    }
+}
