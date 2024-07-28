@@ -1,17 +1,14 @@
-.banner{
-
-}
 
 .banner-conteudo{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
 }
 
 .banner-titulo{
     font-family: var(--fonte-titulo);
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
     color: white;
     font-stretch: normal;
@@ -19,7 +16,7 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-
+    width: 20rem;
 }
 
 strong{
@@ -27,5 +24,10 @@ strong{
 }
 
 .banner-texto{
+    margin-top: 1rem;
     text-align: center;
+    font-family: var(--fonte-texto);
+    font-weight: 600;
+    color: white;
+    font-size: 0.9rem;
 }

@@ -1,0 +1,21 @@
+.produto{
+
+}
+
+.fundo{
+
+}
+
+.produto-img{
+    height: 22rem;
+    margin-top: 15rem;
+    margin-left: 5rem;
+    position: absolute;
+}
+
+.fundo-img{
+    margin-top: 14rem;
+    margin-left: 5rem;
+    height: 27rem;
+
+}
