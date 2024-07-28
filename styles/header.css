@@ -1,0 +1,72 @@
+.cabecalho{
+    height: 50px;
+    display: flex;
+    box-sizing:border-box;
+    margin: 0.6rem;
+    gap: 2.12rem;
+}
+
+.cabecalho-img-logo{
+    height: 100%;
+}
+
+.cabecalho-links{
+    font-family: var(--fonte-texto);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--verde-starbucks);
+    display: flex;
+    align-items: center;
+    gap:2.12rem;
+    margin: 0.6rem;
+}
+
+.cabecalho-links-texto {
+    position: relative;
+    text-decoration: none;
+}
+
+.cabecalho-links-texto::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: var(--verde-starbucks);
+    position: absolute;
+    transition: 0.5s ease-in-out;
+    bottom: 0;
+    left: 0;
+}
+
+.cabecalho-links-texto:hover::after {
+    width: 100%;
+}
+
+.btnLinguagem{
+    border: solid 2px var(--verde-starbucks);
+    border-radius: 30px;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 0.3rem;
+    margin: 8px 13px 0px 0px;
+}
+
+.btnLinguagem-Texto{
+    font-family: var(--fonte-texto);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--verde-starbucks);
+    padding: 5px;
+}
+
+.btnLinguagem-Circulo{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    background-color: var(--verde-starbucks);
+    margin: 2px;
+}
