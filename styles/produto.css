@@ -3,13 +3,10 @@
     justify-content: center;
 }
 
-.fundo{
-
-}
-
 .produto-img{
     height: 22rem;
-    margin-top: 15rem;
+    margin-top: 16rem;
+    margin-bottom: 1rem;
     position: absolute;
 }
 
@@ -17,5 +14,4 @@
     margin-top: 14rem;
     height: 25rem;
     float: right;
-
 }

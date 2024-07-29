@@ -1,7 +1,7 @@
 
 .banner-conteudo{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
@@ -25,6 +25,7 @@ strong{
 
 .banner-texto{
     margin-top: 1rem;
+    margin-bottom: 1rem;
     text-align: center;
     font-family: var(--fonte-texto);
     font-weight: 600;
