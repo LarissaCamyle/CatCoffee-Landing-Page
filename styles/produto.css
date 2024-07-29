@@ -6,12 +6,13 @@
 .produto-img{
     height: 22rem;
     margin-top: 16rem;
-    margin-bottom: 8rem;
     position: absolute;
 }
 
 .fundo-img{
     margin-top: 14rem;
     height: 25rem;
+    margin-bottom: 10rem;
     float: right;
 }
+
