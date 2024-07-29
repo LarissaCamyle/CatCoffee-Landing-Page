@@ -25,11 +25,11 @@ body, html{
 }
 
 main{
-    height: 93%;
+    height: 94%;
 }
 
 .espaco-vazio{
-    height: 4rem;
+    height: 5rem;
 }
 
 @media (prefers-color-scheme: dark) {
