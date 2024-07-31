@@ -32,6 +32,12 @@ main{
     height: 5%;
 }
 
+@media screen and (max-height: 700px) {
+    .espaco-vazio{
+        height: 10%;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         color-scheme: light;

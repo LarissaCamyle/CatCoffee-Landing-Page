@@ -12,7 +12,7 @@
     align-items:end;
     gap: 1.8rem;
     margin-top: 15rem;
-    
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.315);
 }
 
 .footer-quadrado{
@@ -22,15 +22,124 @@
     border-radius: 30px 30px 0px 0px;
     display: flex;
     justify-content: center;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.164);
 }
 
 .footer-cafe{
     height: 6rem;
-    top: -0.6rem;
+    top: -1rem;
     display: flex;
     position: absolute;
 }
 
-.cafe-morango{
-    top : -2.2rem;
+.cafe-escolhido{
+    top : -2.5rem;
+}
+
+@media screen and (min-width: 600px) {
+    .footer-produtos{
+        height: 6.5rem;
+        width: 85%;
+    }
+    .footer-quadrado{
+        width: 23%;
+    }
+    .footer-cafe{
+        height: 7rem;
+    }
+    .cafe-escolhido{
+        top: -2.8rem;
+    }
+}
+@media screen and (min-width: 800px) {
+    .footer-produtos{
+        width: 55%;
+        left: 30%;
+    }
+    .footer-cafe{
+        height: 7.4rem;
+    }
+    .cafe-escolhido{
+        top: -2.8rem;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .footer-produtos{
+        width: 47%;
+        left: 25%;
+        height: 7rem;
+    }
+    .footer-cafe{
+        height: 7.4rem;
+    }
+    .cafe-escolhido{
+        top: -2.8rem;
+    }
+}
+@media screen and (min-width: 600px) and (min-height: 1200px) {
+    .footer-produtos{
+        width: 80%;
+        left: 42%;
+        height: 12rem;
+    }
+    .footer-cafe{
+        height: 10rem;
+    }
+    .cafe-escolhido{
+        top: -4rem;
+    }
+}
+@media screen and (max-width: 600px) and (min-height: 1200px) {
+    .footer-produtos{
+        width: 97%;
+        height: 15rem;
+    }
+    .footer-cafe{
+        height: 10rem;
+    }
+    .cafe-escolhido{
+        top: -4rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .footer-cafe{
+        height: 12rem;
+    }    
+    .footer-produtos{
+        width: 60%;
+        height: 14rem;
+        left: 30rem;
+    }
+    .cafe-escolhido{
+        top: -4rem;
+    }
+    .footer-quadrado{
+        width: 27%;
+    }
+}
+
+@media screen and (min-width: 1500px) { 
+    .footer-produtos{
+        width: 55%;
+        height: 14rem;
+        left: 35rem;
+    }
+    .footer-cafe{
+        height: 13rem;
+    }
+}
+
+@media screen and (min-width: 1900px) { 
+    .footer-produtos{
+        width: 45%;
+        left: 35rem;
+    }
+}
+
+@media screen and (min-width: 2400px) { 
+    .footer-produtos{
+        width: 38%;
+        left: 35rem;
+    }
 }
