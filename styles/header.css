@@ -15,7 +15,7 @@
     font-family: var(--fonte-texto);
     font-weight: 700;
     font-style: normal;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--verde-starbucks);
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@
     border: solid 2px var(--verde-starbucks);
     border-radius: 30px;
     width: 4rem;
-    height: 2rem;
+    height: 1.7rem;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -59,7 +59,7 @@
     font-family: var(--fonte-texto);
     font-weight: 700;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--verde-starbucks);
     padding: 5px;
 }
@@ -117,7 +117,7 @@
         justify-content: start;
     }
     .cabecalho-links{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .btnLinguagem{
         position: fixed;
@@ -126,57 +126,8 @@
 }
 
 @media screen and (min-width: 900px) {
-    .cabecalho{
-        height: 8%;
-    }
     .cabecalho-links{
-        font-size: 1.4rem;
-    }
-}
-@media screen and (min-width: 1100px) {
-    .cabecalho-links{
-        font-size: 1.9rem;
-        align-items: center;
-        gap: 5rem;
-    }
-    .btnLinguagem{
-
-        width: 8rem;
-        height: 3.7rem;
-        border: solid 4px var(--verde-starbucks);
-    }
-    .btnLinguagem-Texto{
-        font-size: 1.7rem;
-    }
-    
-    .btnLinguagem-Circulo{
-        width: 2.4rem;
-        height: 2.4rem;
-        background-color: var(--verde-starbucks);
-        margin: 10px;
+        font-size: 1.1rem;
     }
 }
 
-@media screen and (min-width: 700px)and (min-height: 1100px) {
-    .cabecalho-links{
-        font-size: 1.9rem;
-        align-items: center;
-        gap: 5rem;
-    }
-    .btnLinguagem{
-
-        width: 8rem;
-        height: 3.7rem;
-        border: solid 4px var(--verde-starbucks);
-    }
-    .btnLinguagem-Texto{
-        font-size: 1.7rem;
-    }
-    
-    .btnLinguagem-Circulo{
-        width: 2.4rem;
-        height: 2.4rem;
-        background-color: var(--verde-starbucks);
-        margin: 10px;
-    }
-}
