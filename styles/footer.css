@@ -34,6 +34,7 @@
 
 .cafe-escolhido{
     top : -2.5rem;
+    animation: cafe-pequeno 4s;
 }
 
 @media screen and (min-width: 600px) {
