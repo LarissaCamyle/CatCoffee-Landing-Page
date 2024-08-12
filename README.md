@@ -1,3 +1,3 @@
 # Starbucks-Landing-Page
 
-https://larissacamyle.github.io/Starbucks-Landing-Page/
+https://starbucks-landing-page-red.vercel.app
