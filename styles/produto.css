@@ -7,6 +7,7 @@
     width: 45%;
     margin-top: 13rem;
     position: absolute;
+    z-index: 2;
 }
 
 .cafe-principal-escolhido{
@@ -14,6 +15,8 @@
 }
 
 .fundo-img{
+    position: relative;
+    z-index: 1;
     margin-top: 10rem;
     width: 90%;
     margin-bottom: 10rem;

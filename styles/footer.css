@@ -13,17 +13,32 @@
     gap: 1.5rem;
     margin-top: 15rem;
     box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.315);
+    z-index: 3;
 }
 
 .footer-quadrado{
     height: 80%;
     width: 25%;
-    background-color: var(--cor-de-fundo);
+    background-color: var(--cor-bg);
     border-radius: 30px 30px 0px 0px;
     display: flex;
     justify-content: center;
     box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.164);
 }
+
+.footer-quadrado.active{
+    animation: quadrado 4s ease-out;
+}
+
+@keyframes quadrado {
+    0% {
+        background: var(--cor-de-fundo);
+    }
+    100% {
+        background: var(--cor-bg);
+    }
+}
+
 
 .footer-cafe{
     height: 6rem;
