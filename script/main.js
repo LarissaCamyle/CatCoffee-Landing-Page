@@ -60,7 +60,7 @@ for(let i=0; i < ListaCafeFooter.length; i++){
                     const quadradoAnimacao = ListaQuadrados[j];
                     quadradoAnimacao.classList.remove('active');
                 }
-            }, 4000); // 10ms de atraso
+            }, 2500); // 10ms de atraso
 
         }
     }
