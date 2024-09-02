@@ -1,3 +1,3 @@
-# Starbucks-Landing-Page
+# CatCoffee Landing Page
 
 https://starbucks-landing-page-red.vercel.app
