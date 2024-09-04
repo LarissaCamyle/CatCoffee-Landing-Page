@@ -1,0 +1,99 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/produto.css");
+@import url("styles/footer.css");
+@import url("styles/reset.css");
+@import url('/styles/about.css');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+:root{
+    --cor-0 : #E36D8E;
+    --cor-1: #FF3B3B;
+    --cor-2 : #DB2745;
+
+    --cor-de-fundo : var(--cor-0);
+    --cor-bg : var(--cor-0);
+    --verde-starbucks : #01472B;
+    --fonte-texto : "Livvic", sans-serif;
+    --fonte-titulo : 'Fonte-Titulo', monospace;
+}
+
+@font-face {
+    font-family: 'Fonte-Titulo';
+    src: url("font/KyivTypeSans-Heavy-.otf") format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body, html{
+    background-color: var(--cor-de-fundo);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+.animacao-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(0% at 0 0);
+    z-index: 0;
+}
+
+.animacao-background.active{
+    animation: back-ground 5s ease-out;
+}
+
+
+.espaco-vazio{
+    height: 5%;
+}
+
+@media screen and (max-height: 700px) {
+    .espaco-vazio{
+        height: 10%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: light;
+    }
+}
+
+/*ANIMACOES -----------------*/
+
+@keyframes cafe-pequeno {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes cafe {
+    0% {
+        transform: translateY(600px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes back-ground {
+    0% {
+        clip-path: circle(0% at 0 0);
+        background: var(--cor-bg);
+    }
+    100% {
+        clip-path: circle(200% at 0 0);
+        background: var(--cor-bg);
+    }
+}
+
